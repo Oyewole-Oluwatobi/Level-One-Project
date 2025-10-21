@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    height: 600px
+}
+.home{
+    position: relative;
+}
+.contain{
+    display: flex;
+}
+.child-element{
+    position: absolute;
+    z-index: 999;
+    top: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.diverse{
+    width: 100px;
+    height: 35px;
+}
+.search{
+    width: 35px;
+    height: 30px;
+}
+.cart{
+    border: #f3687f 3px solid;
+    border-radius: 5px;
+    width: 70px;
+    background-color: black;
+    color: white;
+}
+.account{
+    background-color: #f3687f;
+    color: white;
+    border-radius: 5px;
+    width: 80px;
+    border: none;
+}
+.book{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 120px;
+}
+.frame{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.shop{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    color: white;
+}
+.shopnow{
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 998;
+    color: white;
+    gap: 10px;
+}
+.bttn{
+    background-color: #f3687f;
+    color: white;
+    width: 200px;
+    border-radius: 17px;
+    height: 40px;
+    border: none;
+}
+.romance{
+    padding-left: 70px;
+    gap: 20px;
+    padding-right: 70px;
+}
+.romance2{
+    padding-left: 120px;
+    gap: 20px;
+}
+.card{
+    border: none !important;
+    box-shadow: none !important;
+}
+.romance3{
+    padding-left: 120px;
+    gap: 50px;
+}
+.mobile{
+    display: flex;
+    background-color: #f06d82;
+    height: 400px;
+    margin-top: 70px;
+    padding-left: 100px;
+    gap: 7;
+}
+.go{
+    width: 60%;
+    line-height: 1.5;
+    word-spacing: 10px;
+    padding-top: 70px;
+}
+.google{
+    width: 300px;
+    height: 50px;
+    margin-top: 30px;
+}
+.phone{
+    width: 350px;
+    height: 380px;
+    margin-top: 20px;
+}
+.span{
+    color: #cddbf1;
+    font-size: 30px;
+}
+.card2{
+    width: 80%;
+    height: 270px;
+}
+.card3{
+    background-color: #f4f3f3 !important;
+}
+.star{
+    width: 15px;
+    height: 15px;
+}
+.visit{
+    color: blue;
+    text-decoration: none;
+}
+.bookstorecard{
+    margin-left: 30px;
+    margin-right: 40px;
+}
+p{
+    font-size: 13px;
+}
