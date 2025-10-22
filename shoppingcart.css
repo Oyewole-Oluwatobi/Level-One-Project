@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.booknavbar{
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.diverse{
+    width: 100px;
+    height: 35px;
+}
+.search{
+    width: 35px;
+    height: 35px;
+}
+.love{
+    width: 20px;
+    height: 15px;
+}
+.cart{
+    width: 20px;
+    height: 15px;
+}
+.account{
+    width: 20px;
+    height: 19px;
+}
+.book{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 120px;
+}
+.frame{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.order{
+    padding-left: 140px;
+    padding-top: 40px;
+}
+.fee{
+    display: flex;
+    padding-left: 140px;
+    padding-top: 30px;
+    height: 250px;
+}
+.cart-actions {
+    align-items: center; 
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px; 
+    font-size: 14px;
+    white-space: nowrap; 
+}
+
+.quantity {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e5e5e5;
+    padding: 6px 10px;
+    border-radius: 6px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.quantity label {
+    margin-right: 6px;
+    color: #333;
+}
+
+#qty {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+.cart-actions a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cart-actions a.delete {
+    color: red;
+}
+
+.cart-actions a.save {
+    color: #0073e6;
+}
+.price1{
+    width: 70%;
+}
+.price{
+    width: 40%;
+    padding-right: 150px;
+    padding-top: 40px;
+}
+.div{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+}
+.total{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 140px;
+    padding-right: 150px;
+}
+.bttn{
+    justify-content: space-between;
+    display: flex;
+    padding-left: 140px;
+    padding-right: 150px;
+    padding-top: 20px;
+    height: 90px;
+    font-size: 25px;
+}
+.continue{
+    color: black;
+    background-color: white;
+    border: #f3687f 2px solid;
+    border-radius: 25px;
+    font-weight: bold;
+}
+.proceed{
+    color: white;
+    background-color: #f3687f;
+    border-radius: 25px;
+    border: none;
+}
+.romance2{
+    padding-left: 150px;
+    gap: 10px;
+    padding-right: 170px;
+}
+.card{
+    border: none !important;
+    box-shadow: none !important;
+}
+.card2{
+    width: 80%;
+    height: 270px;
+}
+.stepper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.step {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.step.active {
+  border: 2px solid #f06277; /* active border color */
+  color: #000;
+}
+
+.step.inactive {
+  border: 2px solid #dee2e6; /* light gray border */
+  color: #adb5bd;
+}
+
+.line {
+  flex: 1;
+  height: 2px;
+  background-color: #f06277;
+}
+
+

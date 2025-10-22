@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+.booknavbar{
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.diverse{
+    width: 100px;
+    height: 35px;
+}
+.search{
+    width: 35px;
+    height: 35px;
+}
+.love{
+    width: 20px;
+    height: 15px;
+}
+.cart{
+    width: 20px;
+    height: 15px;
+}
+.account{
+    width: 20px;
+    height: 19px;
+}
+.book{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 120px;
+}
+.frame{
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+.order{
+    padding-left: 140px;
+    padding-top: 40px;
+}
+.stepper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.step {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.step.active {
+    border: 2px solid #f06277;
+    color: #000;
+}
+
+.step.inactive {
+    border: 2px solid #dee2e6;
+    color: #adb5bd;
+}
+
+.line {
+    height: 2px;
+    background-color: #f06277;
+    width: 60px;
+}
+.buyerpage{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    align-items: center;
+    margin-top: 50px;
+    gap:25px;
+}
+.create{
+    font-size: 27px;
+}
+.input{
+    height: 70px;
+    width: 300px;
+    border-radius: 17px;
+}
+.aria{
+    border-radius: 17px !important;
+    border: black 2px solid !important;
+}
+.next{
+    background-color: #f3687f;
+    width: 150px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+}
+
