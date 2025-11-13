@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dashboard{
+    display: flex;
+    height: 800px;
+    margin-top: 20px;
+    
+}
+.preview{
+    width: 20%;
+    background-color: #f3687f;
+    padding-top: 20px;
+    gap: 30px;
+}
+.main{
+    width: 80%;
+}
+.kit{
+    line-height: 8px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: white;
+}
+.menu{
+    margin-left: 20px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+}
+.main-first{
+    display: flex;
+    
+}
+
+.text{
+    width: 60%;
+    margin-left: 30px;
+}
+
+.date{
+    border: #f3f5f6 2px solid;
+    height: 28px;
+    width: 200px;
+}
+
+.divs{
+    margin: 10px 30px;
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+}
+
+.sales{
+    border: none;
+    height: 140px;
+    border-radius: 12px;
+    width: 220px; 
+    box-shadow: 0px 0px 5px gray;
+    background-color: #fcf0e4;
+}
+.order{
+    border: none;
+    height: 140px;
+    border-radius: 12px;
+    width: 220px; 
+    box-shadow: 0px 0px 5px gray;
+    background-color: #edf5e8;    
+}
+
+.customer{
+    border: none;
+    height: 140px;
+    border-radius: 12px;
+    width: 220px; 
+    box-shadow: 0px 0px 5px gray;
+    background-color: #eaf0fe;    
+}
+
+.product{
+    border: none;
+    height: 140px;
+    border-radius: 12px;
+    width: 220px; 
+    box-shadow: 0px 0px 5px gray;
+    background-color: #ecf5f4;    
+}

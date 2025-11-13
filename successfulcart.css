@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    flex-direction: column;
+}
+.success-message {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #f06277;
+    font-size: 16px;
+}
+.checkmark {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #f06277;
+    border-radius: 50%;
+    margin-right: 8px;
+    font-size: 30px;
+    line-height: 1;
+}
+.cart{
+    width: 250px;
+    border-radius: 10px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: #f8a4b2 2px solid;
+    font-size: 30px;
+}
+
